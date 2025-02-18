@@ -17,7 +17,7 @@ install(TARGETS UseCudaLib EXPORT UseCudaLibTargets
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin)
 
-install(FILES UseCudaLib.h DESTINATION include)
+install(FILES include/UseCudaLib.h DESTINATION include)
 
 # 生成 CMake Package 配置文件
 include(CMakePackageConfigHelpers)

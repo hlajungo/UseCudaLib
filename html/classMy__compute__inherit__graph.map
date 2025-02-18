@@ -1,0 +1,9 @@
+<map id="My_compute" name="My_compute">
+<area shape="rect" id="Node000001" title=" " alt="" coords="72,79,179,104"/>
+<area shape="rect" id="Node000003" href="$classMy__cpu__task.html" title=" " alt="" coords="5,152,112,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="107,116,71,154,68,150,103,113"/>
+<area shape="rect" id="Node000004" href="$classMy__cuda__task.html" title=" " alt="" coords="136,152,251,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="148,112,184,150,180,154,144,116"/>
+<area shape="rect" id="Node000002" href="$classUse__cuda.html" title="檢測並管理 CUDA 設備的使用。" alt="" coords="83,5,168,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,44,128,79,123,79,123,44"/>
+</map>

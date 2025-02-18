@@ -1,0 +1,128 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0	html/search/searchdata.js	/^  0: "All",$/;"	p	class:indexSectionLabels
+0	html/search/searchdata.js	/^  0: "all",$/;"	p	class:indexSectionNames
+0	html/search/searchdata.js	/^  0: "gmu",$/;"	p	class:indexSectionsWithContent
+1	html/search/searchdata.js	/^  1: "Classes",$/;"	p	class:indexSectionLabels
+1	html/search/searchdata.js	/^  1: "classes",$/;"	p	class:indexSectionNames
+1	html/search/searchdata.js	/^  1: "mu",$/;"	p	class:indexSectionsWithContent
+2	html/search/searchdata.js	/^  2: "Functions"$/;"	p	class:indexSectionLabels
+2	html/search/searchdata.js	/^  2: "functions"$/;"	p	class:indexSectionNames
+2	html/search/searchdata.js	/^  2: "gu"$/;"	p	class:indexSectionsWithContent
+Activate	html/search/search.js	/^  this.Activate = function(isActive) {$/;"	m	class:SearchBox
+BIBTEX_CMD	latex/Makefile	/^BIBTEX_CMD?=bibtex$/;"	m
+Class Documentation	latex/refman.tex	/^\\chapter{Class Documentation}$/;"	c
+Class Index	latex/refman.tex	/^\\chapter{Class Index}$/;"	c
+CloseResultsWindow	html/search/search.js	/^  this.CloseResultsWindow = function() {$/;"	m	class:SearchBox
+CloseSelectionWindow	html/search/search.js	/^  this.CloseSelectionWindow = function() {$/;"	m	class:SearchBox
+File Documentation	latex/refman.tex	/^\\chapter{File Documentation}$/;"	c
+File Index	latex/refman.tex	/^\\chapter{File Index}$/;"	c
+FindChildElement	html/search/search.js	/^  this.FindChildElement = function(id) {$/;"	m	class:SearchResults
+GetSelectionIdByName	html/search/search.js	/^  this.GetSelectionIdByName = function(name) {$/;"	m	class:SearchBox
+Hierarchical Index	latex/refman.tex	/^\\chapter{Hierarchical Index}$/;"	c
+LATEX_CMD	latex/Makefile	/^LATEX_CMD?=pdflatex$/;"	m
+LATEX_COUNT	latex/Makefile	/^LATEX_COUNT?=8$/;"	m
+MANUAL_FILE	latex/Makefile	/^MANUAL_FILE?=refman$/;"	m
+MKIDX_CMD	latex/Makefile	/^MKIDX_CMD?=makeindex$/;"	m
+Nav	html/search/search.js	/^  this.Nav = function(evt,itemIndex) {$/;"	m	class:SearchResults
+NavChild	html/search/search.js	/^  this.NavChild = function(evt,itemIndex,childIndex) {$/;"	m	class:SearchResults
+NavNext	html/search/search.js	/^  this.NavNext = function(index) {$/;"	m	class:SearchResults
+NavPrev	html/search/search.js	/^  this.NavPrev = function(index) {$/;"	m	class:SearchResults
+OnSearchFieldChange	html/search/search.js	/^  this.OnSearchFieldChange = function(evt) {$/;"	m	class:SearchBox
+OnSearchFieldFocus	html/search/search.js	/^  this.OnSearchFieldFocus = function(isActive) {$/;"	m	class:SearchBox
+OnSearchSelectHide	html/search/search.js	/^  this.OnSearchSelectHide = function() {$/;"	m	class:SearchBox
+OnSearchSelectKey	html/search/search.js	/^  this.OnSearchSelectKey = function(evt) {$/;"	m	class:SearchBox
+OnSearchSelectShow	html/search/search.js	/^  this.OnSearchSelectShow = function() {$/;"	m	class:SearchBox
+OnSelectItem	html/search/search.js	/^  this.OnSelectItem = function(id) {$/;"	m	class:SearchBox
+ProcessKeys	html/search/search.js	/^  this.ProcessKeys = function(e) {$/;"	m	class:SearchResults
+Search	html/search/search.js	/^  this.Search = function() {$/;"	m	class:SearchBox
+Search	html/search/search.js	/^  this.Search = function(search) {$/;"	m	class:SearchResults
+SearchBox	html/search/search.js	/^function SearchBox(name, resultsPath, extension) {$/;"	c
+SearchResults	html/search/search.js	/^function SearchResults() {$/;"	c
+SelectItemCount	html/search/search.js	/^  this.SelectItemCount = function() {$/;"	m	class:SearchBox
+SelectItemSet	html/search/search.js	/^  this.SelectItemSet = function(id) {$/;"	m	class:SearchBox
+Toggle	html/search/search.js	/^  this.Toggle = function(id) {$/;"	m	class:SearchResults
+Use_cuda	UseCuda.cu	/^Use_cuda::Use_cuda() : has_gpu(false)$/;"	f	class:Use_cuda
+Use_cuda	UseCuda.h	/^class Use_cuda {$/;"	c
+_preventDefault	html/resize.js	/^  const _preventDefault = function(evt) { evt.preventDefault(); };$/;"	f
+a1e1396eef04b3ace3d201f2de41dd49a	html/classMy__compute.html	/^<tr class="memitem:a1e1396eef04b3ace3d201f2de41dd49a" id="r_a1e1396eef04b3ace3d201f2de41dd49a"><td class="memItemLeft" align="right" valign="top"><a id="a1e1396eef04b3ace3d201f2de41dd49a" name="a1e1396eef04b3ace3d201f2de41dd49a"><\/a>$/;"	a
+a29bf3f05f48dd20a354f13b572ba90cc	html/classMy__cuda__task.html	/^<a id="a29bf3f05f48dd20a354f13b572ba90cc" name="a29bf3f05f48dd20a354f13b572ba90cc"><\/a>$/;"	a
+a6e0c3a129677d8eb183e9871472a1f7b	html/classUse__cuda.html	/^<a id="a6e0c3a129677d8eb183e9871472a1f7b" name="a6e0c3a129677d8eb183e9871472a1f7b"><\/a>$/;"	a
+aa9179c3f555303ea3706f9e7be826f59	html/classMy__cpu__task.html	/^<a id="aa9179c3f555303ea3706f9e7be826f59" name="aa9179c3f555303ea3706f9e7be826f59"><\/a>$/;"	a
+aae23c57e09494c0b836247c06afe9d0f	html/classUse__cuda.html	/^<tr class="memitem:aae23c57e09494c0b836247c06afe9d0f" id="r_aae23c57e09494c0b836247c06afe9d0f"><td class="memItemLeft" align="right" valign="top"><a id="aae23c57e09494c0b836247c06afe9d0f" name="aae23c57e09494c0b836247c06afe9d0f"><\/a>$/;"	a
+b	html/jquery.js	/^!function(e,t){"use strict";"object"==typeof module&&"object"==typeof module.exports?module.exports=e.document?t(e,!0):function(e){if(!e.document)throw new Error("jQuery requires a window with a document");return t(e)}:t(e)}("undefined"!=typeof window?window:this,function(C,e){"use strict";var t=[],r=Object.getPrototypeOf,s=t.slice,g=t.flat?function(e){return t.flat.call(e)}:function(e){return t.concat.apply([],e)},u=t.push,i=t.indexOf,n={},o=n.toString,v=n.hasOwnProperty,a=v.toString,l=a.call(Object),y={},m=function(e){return"function"==typeof e&&"number"!=typeof e.nodeType&&"function"!=typeof e.item},x=function(e){return null!=e&&e===e.window},E=C.document,c={type:!0,src:!0,nonce:!0,noModule:!0};function b(e,t,n){var r,i,o=(n=n||E).createElement("script");if(o.text=e,t)for(r in c)(i=t[r]||t.getAttribute&&t.getAttribute(r))&&o.setAttribute(r,i);n.head.appendChild(o).parentNode.removeChild(o)}function w(e){return null==e?e+"":"object"==typeof e||"function"==typeof e?n[o.call(e)]||"object":typeof e}$/;"	f
+check_has_gpu	UseCuda.cu	/^bool Use_cuda::check_has_gpu()$/;"	f	class:Use_cuda
+children	html/menudata.js	/^var menudata={children:[$/;"	p	class:menudata
+collapseExpand	html/resize.js	/^  function collapseExpand() {$/;"	f	function:initResizable
+const	html/menu.js	/^    const initResizableIfExists = function() {$/;"	f
+const	html/search/search.js	/^    const handleResults = function() {$/;"	m
+const	html/search/search.js	/^    const loadJS = function(url, impl, loc) {$/;"	m
+convertToId	html/search/search.js	/^  function convertToId(search) {$/;"	f	function:SearchResults
+cookie_namespace	html/cookie.js	/^  cookie_namespace: 'doxygen_',$/;"	p	class:let
+createResults	html/search/search.js	/^function createResults(resultsPath) {$/;"	f
+details	html/classUse__cuda.html	/^<a name="details" id="details"><\/a><h2 class="groupheader">Detailed Description<\/h2>$/;"	a
+getXPos	html/search/search.js	/^  function getXPos(item) {$/;"	f	function:SearchBox
+getYPos	html/search/search.js	/^  function getYPos(item) {$/;"	f	function:SearchBox
+get_has_gpu	UseCuda.cu	/^bool Use_cuda::get_has_gpu()$/;"	f	class:Use_cuda
+has_gpu	UseCuda.h	/^    bool has_gpu; \/\/\/< 是否有 GPU$/;"	m	class:Use_cuda
+inherited	html/classMy__compute.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"><\/a>$/;"	a
+inherited	html/classMy__cpu__task.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"><\/a>$/;"	a
+inherited	html/classMy__cuda__task.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"><\/a>$/;"	a
+initMenu	html/menu.js	/^function initMenu(relPath,searchEnabled,serverSide,searchPage,search,treeview) {$/;"	f
+initResizable	html/resize.js	/^function initResizable(treeview) {$/;"	f
+init_search	html/search/search.js	/^function init_search() {$/;"	f
+l00001	html/UseCuda_8h_source.html	/^<div class="fragment"><div class="line"><a id="l00001" name="l00001"><\/a><span class="lineno">    1<\/span><span class="preprocessor">#pragma once<\/span><\/div>$/;"	a
+l00002	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00002" name="l00002"><\/a><span class="lineno">    2<\/span><span class="preprocessor">#include &lt;iostream&gt;<\/span><\/div>$/;"	a
+l00003	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00003" name="l00003"><\/a><span class="lineno">    3<\/span><span class="preprocessor">#include &lt;type_traits&gt;<\/span><\/div>$/;"	a
+l00004	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00004" name="l00004"><\/a><span class="lineno">    4<\/span><span class="preprocessor">#include &lt;cuda_runtime.h&gt;<\/span><\/div>$/;"	a
+l00005	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00005" name="l00005"><\/a><span class="lineno">    5<\/span> <\/div>$/;"	a
+l00006	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00006" name="l00006"><\/a><span class="lineno">    6<\/span><span class="comment">\/\/ 父類：控制是否使用 CUDA<\/span><\/div>$/;"	a
+l00011	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00011" name="l00011"><\/a><span class="lineno"><a class="line" href="classUse__cuda.html">   11<\/a><\/span><span class="keyword">class <\/span><a class="code hl_function" href="classUse__cuda.html#aae23c57e09494c0b836247c06afe9d0f">Use_cuda<\/a> {<\/div>$/;"	a
+l00012	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00012" name="l00012"><\/a><span class="lineno">   12<\/span>  <span class="keyword">public<\/span>:<\/div>$/;"	a
+l00017	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00017" name="l00017"><\/a><span class="lineno"><a class="line" href="classUse__cuda.html#a6e0c3a129677d8eb183e9871472a1f7b">   17<\/a><\/span>    <span class="keywordtype">bool<\/span> <a class="code hl_function" href="classUse__cuda.html#a6e0c3a129677d8eb183e9871472a1f7b">get_has_gpu<\/a>();<\/div>$/;"	a
+l00018	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00018" name="l00018"><\/a><span class="lineno">   18<\/span> <\/div>$/;"	a
+l00019	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00019" name="l00019"><\/a><span class="lineno">   19<\/span>  <span class="keyword">protected<\/span>:<\/div>$/;"	a
+l00023	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00023" name="l00023"><\/a><span class="lineno"><a class="line" href="classUse__cuda.html#aae23c57e09494c0b836247c06afe9d0f">   23<\/a><\/span>    <a class="code hl_function" href="classUse__cuda.html#aae23c57e09494c0b836247c06afe9d0f">Use_cuda<\/a>();<\/div>$/;"	a
+l00024	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00024" name="l00024"><\/a><span class="lineno">   24<\/span> <\/div>$/;"	a
+l00025	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00025" name="l00025"><\/a><span class="lineno">   25<\/span>  <span class="keyword">private<\/span>:<\/div>$/;"	a
+l00026	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00026" name="l00026"><\/a><span class="lineno">   26<\/span>    <span class="keywordtype">bool<\/span> has_gpu; <\/div>$/;"	a
+l00031	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00031" name="l00031"><\/a><span class="lineno">   31<\/span>    <span class="keywordtype">void<\/span> set_has_gpu(<span class="keywordtype">bool<\/span> val);<\/div>$/;"	a
+l00032	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00032" name="l00032"><\/a><span class="lineno">   32<\/span><\/div>$/;"	a
+l00037	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00037" name="l00037"><\/a><span class="lineno">   37<\/span>    <span class="keywordtype">bool<\/span> is_has_gpu();<\/div>$/;"	a
+l00038	html/UseCuda_8h_source.html	/^<div class="line"><a id="l00038" name="l00038"><\/a><span class="lineno">   38<\/span>};<\/div>$/;"	a
+latex_count	latex/Makefile	/^	latex_count=$(LATEX_COUNT) ; \\$/;"	m
+letter_M	html/classes.html	/^<dt class="alphachar"><a id="letter_M" name="letter_M">M<\/a><\/dt>$/;"	a
+letter_U	html/classes.html	/^<dt class="alphachar"><a id="letter_U" name="letter_U">U<\/a><\/dt>$/;"	a
+makeTree	html/menu.js	/^  function makeTree(data,relPath) {$/;"	f	function:initMenu
+opened	html/dynsections.js	/^  opened : true,$/;"	p	class:let
+p	html/jquery.js	/^var f="3.6.0",S=function(e,t){return new S.fn.init(e,t)};function p(e){var t=!!e&&"length"in e&&e.length,n=w(e);return!m(e)&&!x(e)&&("array"===n||0===t||"number"==typeof t&&0<t&&t-1 in e)}S.fn=S.prototype={jquery:f,constructor:S,length:0,toArray:function(){return s.call(this)},get:function(e){return null==e?s.call(this):e<0?this[e+this.length]:this[e]},pushStack:function(e){var t=S.merge(this.constructor(),e);return t.prevObject=this,t},each:function(e){return S.each(this,e)},map:function(n){return this.pushStack(S.map(this,function(e,t){return n.call(e,t,e)}))},slice:function(){return this.pushStack(s.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},even:function(){return this.pushStack(S.grep(this,function(e,t){return(t+1)%2}))},odd:function(){return this.pushStack(S.grep(this,function(e,t){return t%2}))},eq:function(e){var t=this.length,n=+e+(e<0?t:0);return this.pushStack(0<=n&&n<t?[this[n]]:[])},end:function(){return this.prevObject||this.constructor()},$/;"	f	function:w
+plusImg	html/dynsections.js	/^  plusImg:  [ "var(--fold-plus-image)",  "var(--fold-plus-image-relpath)" ],$/;"	p	class:let
+pro-methods	html/classUse__cuda.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"><\/a>$/;"	a
+pub-methods	html/classMy__compute.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"><\/a>$/;"	a
+pub-methods	html/classMy__cpu__task.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"><\/a>$/;"	a
+pub-methods	html/classMy__cuda__task.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"><\/a>$/;"	a
+pub-methods	html/classUse__cuda.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"><\/a>$/;"	a
+resizeHeight	html/resize.js	/^  function resizeHeight(treeview) {$/;"	f	function:initResizable
+resizeWidth	html/resize.js	/^  function resizeWidth() {$/;"	f	function:initResizable
+restoreWidth	html/resize.js	/^  function restoreWidth(navWidth) {$/;"	f	function:initResizable
+searchData	html/search/all_0.js	/^var searchData=$/;"	v
+searchData	html/search/all_1.js	/^var searchData=$/;"	v
+searchData	html/search/all_2.js	/^var searchData=$/;"	v
+searchData	html/search/classes_0.js	/^var searchData=$/;"	v
+searchData	html/search/classes_1.js	/^var searchData=$/;"	v
+searchData	html/search/functions_0.js	/^var searchData=$/;"	v
+searchData	html/search/functions_1.js	/^var searchData=$/;"	v
+setClassAttr	html/search/search.js	/^  function setClassAttr(elem,attr) {$/;"	f	function:createResults
+setKeyActions	html/search/search.js	/^  function setKeyActions(elem,action) {$/;"	f	function:createResults
+set_has_gpu	UseCuda.cu	/^void Use_cuda::set_has_gpu(bool val)$/;"	f	class:Use_cuda
+toggleFolder	html/dynsections.js	/^  toggleFolder : function(id) {$/;"	m	class:let
+toggleInherit	html/dynsections.js	/^  toggleInherit : function(id) {$/;"	m	class:let
+toggleLevel	html/dynsections.js	/^  toggleLevel : function(level) {$/;"	m	class:let
+toggleVisibility	html/dynsections.js	/^  toggleVisibility : function(linkObj) {$/;"	m	class:let
+toggleVisibility	html/dynsections.js	/^function toggleVisibility(linkObj) {$/;"	f
+updateStripes	html/dynsections.js	/^  updateStripes : function() {$/;"	m	class:let
+w	html/jquery.js	/^!function(e,t){"use strict";"object"==typeof module&&"object"==typeof module.exports?module.exports=e.document?t(e,!0):function(e){if(!e.document)throw new Error("jQuery requires a window with a document");return t(e)}:t(e)}("undefined"!=typeof window?window:this,function(C,e){"use strict";var t=[],r=Object.getPrototypeOf,s=t.slice,g=t.flat?function(e){return t.flat.call(e)}:function(e){return t.concat.apply([],e)},u=t.push,i=t.indexOf,n={},o=n.toString,v=n.hasOwnProperty,a=v.toString,l=a.call(Object),y={},m=function(e){return"function"==typeof e&&"number"!=typeof e.nodeType&&"function"!=typeof e.item},x=function(e){return null!=e&&e===e.window},E=C.document,c={type:!0,src:!0,nonce:!0,noModule:!0};function b(e,t,n){var r,i,o=(n=n||E).createElement("script");if(o.text=e,t)for(r in c)(i=t[r]||t.getAttribute&&t.getAttribute(r))&&o.setAttribute(r,i);n.head.appendChild(o).parentNode.removeChild(o)}function w(e){return null==e?e+"":"object"==typeof e||"function"==typeof e?n[o.call(e)]||"object":typeof e}$/;"	f

@@ -22,7 +22,7 @@ install(FILES UseCudaLib.h DESTINATION include)
 # 生成 CMake Package 配置文件
 include(CMakePackageConfigHelpers)
 write_basic_package_version_file(
-  "${CMAKE_CURRENT_BINARY_DIR}/UseCudaConfigVersion.cmake"
+  "${CMAKE_CURRENT_BINARY_DIR}/UseCudaLibConfigVersion.cmake"
   VERSION 1.0.0
   COMPATIBILITY SameMajorVersion
 )

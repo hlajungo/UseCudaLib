@@ -1,4 +1,4 @@
-#include "UseCuda.h"
+#include "UseCudaLib.h"
 
 
 Use_cuda::Use_cuda() : has_gpu(false)

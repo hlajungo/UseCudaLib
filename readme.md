@@ -19,8 +19,8 @@ project(MyProject LANGUAGES CXX CUDA)
 include(FetchContent)
 FetchContent_Declare(
     UseCuda
-    GIT_REPOSITORY https://github.com/your-username/UseCudaLib.git
-    GIT_TAG main
+    GIT_REPOSITORY https://github.com/hlajungo/UseCudaLib.git
+    GIT_TAG v1.0.0
 )
 FetchContent_MakeAvailable(UseCuda)
 

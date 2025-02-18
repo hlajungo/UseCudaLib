@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.14)
 project(UseCudaLib LANGUAGES CXX CUDA)
 
 add_library(UseCudaLib STATIC source/UseCudaLib.cu)
-#target_include_directories(UseCudaLib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(UseCudaLib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 # 如果你想支援 CUDA
 set_target_properties(UseCudaLib PROPERTIES CUDA_SEPARABLE_COMPILATION ON)

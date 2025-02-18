@@ -1,4 +1,6 @@
+# UseCudaLib
 
+A simple lib for detecting is there a GPU on computer.
 
 ### compile on linux
 ```
@@ -26,4 +28,10 @@ FetchContent_MakeAvailable(UseCuda)
 
 add_executable(MyExecutable main.cpp)
 target_link_libraries(MyExecutable PRIVATE UseCuda)
+```
+
+### generate documentation
+```
+doxygen
+realpath html/index.html
 ```

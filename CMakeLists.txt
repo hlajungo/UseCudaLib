@@ -1,34 +1,34 @@
 cmake_minimum_required(VERSION 3.14)
 project(UseCudaLib LANGUAGES CXX CUDA)
 
-add_library(UseCuda STATIC UseCuda.cu)
-#target_include_directories(UseCuda PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+add_library(UseCudaLib STATIC UseCudaLib.cu)
+#target_include_directories(UseCudaLib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 # 如果你想支援 CUDA
-set_target_properties(UseCuda PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
+set_target_properties(UseCudaLib PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
 
 # 安裝目標
-install(TARGETS UseCuda EXPORT UseCudaTargets
+install(TARGETS UseCudaLib EXPORT UseCudaLibTargets
         ARCHIVE DESTINATION lib
         LIBRARY DESTINATION lib
         RUNTIME DESTINATION bin)
 
-install(FILES UseCuda.h DESTINATION include)
+      install(FILES UseCudaLib.h DESTINATION include)
 
 # 生成 CMake Package 配置文件
 include(CMakePackageConfigHelpers)
 write_basic_package_version_file(
     "${CMAKE_CURRENT_BINARY_DIR}/UseCudaConfigVersion.cmake"
-    VERSION 1.0
+    VERSION 1.0.0
     COMPATIBILITY SameMajorVersion
 )
 
-install(EXPORT UseCudaTargets
-        FILE UseCudaTargets.cmake
-        NAMESPACE UseCuda::
-        DESTINATION lib/cmake/UseCuda)
+install(EXPORT UseCudaLibTargets
+  FILE UseCudaLibTargets.cmake
+  NAMESPACE UseCudaLib::
+  DESTINATION lib/cmake/UseCudaLib)
 
 install(FILES
-    "${CMAKE_CURRENT_BINARY_DIR}/UseCudaConfigVersion.cmake"
-    DESTINATION lib/cmake/UseCuda)
+    "${CMAKE_CURRENT_BINARY_DIR}/UseCudaLibConfigVersion.cmake"
+    DESTINATION lib/cmake/UseCudaLib)
 

@@ -18,13 +18,8 @@ cmake_minimum_required(VERSION 3.14)
 project(MyProject LANGUAGES CXX CUDA)
 
 # Use CPM to download UseCudaLib
-include(FetchContent)
-FetchContent_Declare(
-    UseCuda
-    GIT_REPOSITORY https://github.com/hlajungo/UseCudaLib.git
-    GIT_TAG v1.0.0
-)
-FetchContent_MakeAvailable(UseCuda)
+include(cmake/CPM.cmake)
+CPMAddPackage("gh:hlajungo/UseCudaLib#v1.0.0")
 
 add_executable(MyExecutable main.cpp)
 target_link_libraries(MyExecutable PRIVATE UseCuda)

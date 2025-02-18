@@ -36,3 +36,13 @@ install(TARGETS MyExecutable
 doxygen
 realpath html/index.html
 ```
+
+### example
+This project provides a simple example that uses polymorphism to implement CPU and GPU calculations separately.
+```
+cd example
+cmake -S . -B ./build -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=./output -DCMAKE_BUILD_TYPE=Release
+cmake --build build --parallel $(nproc)
+cmake --install build
+```
+

@@ -2,9 +2,9 @@
 
 ### compile on linux
 ```
-wget https://github.com/hlajungo/UseCudaLib/archive/refs/tags/1.0.0.tar.gz
-tar xf UseCudaLib-1.0.0.tar.gz
-cd UseCudaLib
+wget https://github.com/hlajungo/UseCudaLib/archive/refs/tags/v1.0.0.tar.gz
+tar xf v1.0.0.tar.gz
+cd UseCudaLib-1.0.0
 cmake -S . -B ./build -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=/PATH/TO/INSTALL -DCMAKE_BUILD_TYPE=Release
 cmake --build build --parallel $(nproc)
 cmake --install build

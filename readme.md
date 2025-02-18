@@ -2,7 +2,7 @@
 
 ### compile on linux
 ```
-wget https://github.com/hlajungo/UseCudaLib/archive/refs/tags/UseCudaLib-1.0.0.tar.gz
+wget https://github.com/hlajungo/UseCudaLib/archive/refs/tags/1.0.0.tar.gz
 tar xf UseCudaLib-1.0.0.tar.gz
 cd UseCudaLib
 cmake -S . -B ./build -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=/PATH/TO/INSTALL -DCMAKE_BUILD_TYPE=Release
